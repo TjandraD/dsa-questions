@@ -9,7 +9,7 @@ public class SolutionTest {
             int startIndex = 0;
             int endIndex = nums.length - 1;
 
-            while (startIndex < endIndex) {
+            while (startIndex <= endIndex) {
                 int mid = startIndex + (endIndex - startIndex) / 2;
 
                 if (nums[mid] == target) {
@@ -21,7 +21,7 @@ public class SolutionTest {
                 }
             }
 
-            return endIndex + 1;
+            return startIndex;
         }
     }
 

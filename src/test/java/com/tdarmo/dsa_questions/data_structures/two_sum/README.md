@@ -1,4 +1,4 @@
-# Maximum Subarray
+# Two Sum
 
 ## Question Source
 
